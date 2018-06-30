@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    height: 70px;
+    background-color: #94618E;
+}
+
+nav h4 {
+    font-family:'Ubuntu', sans-serif;
+    font-size: 40px;
+    float: left;
+    line-height: 65px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 100px;
+}
+
+nav a {
+    color: #49274A;
+}
+
+a {
+    text-decoration:none;
+}
+
+header {
+    background-color: #94618E;
+    height: 500px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 100px;
+    color: #F8EEE7;
+    padding-top: 120px;
+}
+
+header p {
+    text-align: center;
+    font-size: 30px;
+    color: #F8EEE7;
+}
+
+footer {
+    height: 70px;
+    background-color: black;
+    color: #F4DECB;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+footer ul{
+    list-style-type: none;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+
+}
+
+footer ul li {
+    display:inline-block;
+    padding: 0 30px;
+    line-height: 70px;
+}
+
+.fa {
+    color: #F4DECB;
+}
+
+.grape {
+    background-color: #94618E;
+}
+
+.eggplant {
+    background-color: #49274A;
+}
+
+.sand {
+    background-color: #F4DECB;
+}
+
+.shell {
+    background-color: #F8EEE7;
+}
