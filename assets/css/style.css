@@ -34,7 +34,6 @@ nav h4 {
     font-size: 40px;
     float: left;
     line-height: 65px;
-
 }
 
 nav ul {
@@ -48,7 +47,6 @@ nav li {
     display: inline-block;
     line-height: 70px;
     padding: 0 50px;
-
 }
 
 nav a {
@@ -188,6 +186,7 @@ footer .fa {
     font-size: 20px;
 }
 
+/* color reference */
 .grape {
     background-color: #94618E;
 }
