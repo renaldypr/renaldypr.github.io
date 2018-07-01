@@ -13,9 +13,9 @@
         <h4>renaldypr</h4>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Games</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#games">Games</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -27,13 +27,82 @@
       </div>
     </header>
 
-      <section>
-        <div class="container">
+    <section id="about">
+      <div class="container">
+        <h2>About me.</h2>
+        <img src="assets/images/portrait.jpg" alt="art by @arcahyadi"><br>
+        <p>My name is Renaldy and welcome to my first website!
+          I graduated in Electrical Engineering at Universitas Indonesia,
+          majoring in electronics engineering.
+          I have a passion for all things related to technology and digital.
+          I am now attending Hacktiv8's Full Stack Javascript program,
+          hoping to fulfill my dream to work in the IT industry.
+          As for my hobby, I really love video games and have a passion in the industry
+          for all my life. Originally a console gamer, I have now move on to the PC gaming scene.
+          You can checkout my Steam profile here <a target="_blank" href="https://steamcommunity.com/id/soul23plane" class="fa fa-steam"></a>
+        </p>
+      </div>
+    </section>
 
-        </div>
+    <section id="games">
+      <div class="container">
+        <h2>Games.</h2>
+        <p>These are my most played games for June 2018.</p>
+        <table border="1" style="border-collapse: collapse">
+          <thead>
+            <th>Games</th>
+            <th>Screenshot</th>
+          </thead>
+          <tr>
+            <td>1. Fortnite</td>
+            <td><img src="assets/images/fortnite.jpg"></td>
+          </tr>
+          <tr>
+            <td>2. PUBG</td>
+            <td><img src="assets/images/PUBG.jpg"></td>
+          </tr>
+          <tr>
+            <td>3. The Elder Scrolls Online</td>
+            <td><img src="assets/images/ESO.jpg"></td>
+          </tr>
+        </table>
+
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact me.</h2>
+        <p>Want to leave me a message? Submit yours in the form below,
+          or checkout my social media in the footer!</p>
+        <div class="form-container">
+        <form>
+          <div class="form-group">
+            <label>Full Name</label> <br>
+            <input type="text" name="name" class="form-control">
+            </div>
+          <div class="form-group">
+            <label>Email Address</label> <br>
+            <input type="email" name="email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Question Type</label> <br>
+            <select name="qtype" class="form-control">
+              <option value="none"></option>
+              <option value="self">About myself</option>
+              <option value="games">About games</option>
+              <option value="socmed">About my social media</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Message</label> <br>
+            <textarea></textarea>
+          </div>
+          <input type="submit">
+        </form>
+      </div>
       </section>
-
-
 
     <footer>
       <ul>

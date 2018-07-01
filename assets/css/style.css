@@ -7,12 +7,23 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+h2 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+a {
+    text-decoration:none;
+}
+
 .container {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* nav */
 nav {
     height: 70px;
     background-color: #94618E;
@@ -30,22 +41,21 @@ nav ul {
     list-style-type: none;
     width: 100%;
     text-align: center;
+      margin: 0 auto;
 }
 
 nav li {
     display: inline-block;
     line-height: 70px;
-    margin: 0 100px;
+    padding: 0 50px;
+
 }
 
 nav a {
     color: #49274A;
 }
 
-a {
-    text-decoration:none;
-}
-
+/* header */
 header {
     background-color: #94618E;
     height: 500px;
@@ -64,13 +74,99 @@ header p {
     color: #F8EEE7;
 }
 
+/* about */
+#about {
+  background-color: #F8EEE7;
+}
+
+#about img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+#about p {
+  text-align:justify;
+  padding-bottom: 30px;
+}
+
+.fa-steam {
+  color: black;
+}
+
+/* games */
+#games {
+  background-color: #F4E7D7;
+  padding-bottom: 30px;
+}
+
+#games p {
+  text-align: center;
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+
+#games img {
+  width: 500px;
+  height: 300px;
+}
+
+#games table {
+  margin: 0 auto;
+}
+
+#games td {
+  text-align: center;
+  padding: 20px;
+}
+
+/* contact */
+#contact {
+  background-color: #F4DECB;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+#contact p {
+  text-align: center;
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+#contact .form-group {
+  padding-bottom: 10px;
+}
+
+#contact form .form-control {
+  width: 300px;
+  font-size: 20px;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+  font-size: 20px;
+}
+
+/* footer */
 footer {
     height: 70px;
     background-color: black;
     color: #F4DECB;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 footer ul{
@@ -79,7 +175,6 @@ footer ul{
     margin: 0 auto;
     width: 100%;
     text-align: center;
-
 }
 
 footer ul li {
@@ -88,8 +183,9 @@ footer ul li {
     line-height: 70px;
 }
 
-.fa {
+footer .fa {
     color: #F4DECB;
+    font-size: 20px;
 }
 
 .grape {
