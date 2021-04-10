@@ -1,16 +1,22 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
+import App from '../components/App';
+import { headData } from '../mock/data';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../style/main.scss';
 
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import Title from '../components/title';
-import Hello from '../components/hello';
+export default () => {
+  const { title, lang, description } = headData;
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <Title />
-    <Hello />
-  </Layout>
-)
-
-export default IndexPage;
+  return (
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{title || 'Gatsby Simplefolio'}</title>
+        <html lang={lang || 'en'} />
+        <meta name="description" content={description || 'Gatsby Simplefolio'} />
+      </Helmet>
+      <App />
+    </>
+  );
+};

@@ -1,97 +1,266 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's default starter
-</h1>
+# Gatsby Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/cobidev/gatsby-simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/gatsby-simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/gatsby-simplefolio)
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+## A clean, beautiful and responsive portfolio template for Developers
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+<h2 align="center">
+  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.gif" alt="Gatsby Simplefolio" width="600px" />
+  <br>
+</h2>
 
-## 🚀 Quick start
+## Features
 
-1.  **Create a Gatsby site.**
+⚡️ Modern UI Design + Reveal Animations\
+⚡️ One Page Layout built with React\
+⚡️ Styled with Bootstrap v4.3 + Custom SCSS\
+⚡️ Fully Responsive\
+⚡️ Configurable color scheme\
+⚡️ Image optimization with Gatsby\
+⚡️ Easy site customization\
+⚡️ Well organized documentation
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+To view a demo example, **[click here](https://gatsby-simplefolio.netlify.com/)**\
+To view a live example, **[click here](https://cobidev.com/)**
 
-    ```sh
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
-    ```
+---
 
-1.  **Start developing.**
+## Getting Started 🚀
 
-    Navigate into your new site’s directory and start it up.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-    ```sh
-    cd my-default-starter/
-    gatsby develop
-    ```
+### Prerequisites 📋
 
-1.  **Open the source code and start editing!**
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.\
+Also you need to have installed [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/)
 
-    Your site is now running at `http://localhost:8000`!
+```
+node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
+gatsby-cli@2.8.22 or higher
+```
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+Also, you can use [Yarn](https://yarnpkg.com/) instead of NPM ☝️
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+```
+yarn@v1.21.1 or higher
+```
 
-## 🧐 What's inside?
+---
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+## How To Use 🔧
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+From your command line, first clone Simplefolio:
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+```bash
+# Clone this repository
+$ git clone https://github.com/cobidev/gatsby-simplefolio
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+# Go into the repository
+$ cd gatsby-simplefolio
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+# Remove current origin repository
+$ git remote remove origin
+```
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+Then you can install the dependencies either using NPM or Yarn:
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+Using NPM:
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+```bash
+# Install dependencies
+$ npm install
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+# Start development server
+$ npm run develop
+```
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+Using Yarn:
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+```bash
+# Install dependencies
+$ yarn
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+# Start development server
+$ yarn develop
+```
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+**NOTE**:
+If your run into issues installing the dependencies with NPM, use this command:
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+```bash
+# Install dependencies with all permissions
+$ sudo npm install --unsafe-perm=true --allow-root
+```
 
-## 🎓 Learning Gatsby
+Once your server has started, go to this url `http://localhost:8000/` and you will see the website running on a Development Server:
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+<h2 align="center">
+  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.png" alt="Gatsby Simplefolio" width="100%">
+</h2>
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+---
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+## Instructions:
 
-## 💫 Deploy
+### Step 1 - STRUCTURE
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+Go to `/src/mock/data.js` and fill your information, they are 5 objects:
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+### Hero Section
+
+```javascript
+export const heroData = {
+  title: '', // Hello, my name is
+  name: '', // John
+  subtitle: '', // I'm the Unknown Developer.
+  cta: '', // Know more
+};
+```
+
+### About Section
+
+**_Important Note_**: All the images must live inside the `src/images/` folder in order for Gatsby to show the images correctly.
+
+```javascript
+export const aboutData = {
+  img: 'profile.jpg', // put your profile image (recommended aspect radio: square)
+  paragraphOne: '',
+  paragraphTwo: '',
+  paragraphThree: '',
+  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+};
+```
+
+### Projects Section
+
+**_Important Note_**: All the images must live inside the `src/images/` folder in order for Gatsby to show the images correctly.
+
+Put as many projects object you want inside the `array`.
+
+```javascript
+export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  ...
+];
+```
+
+### Contact Section
+
+```javascript
+export const contactData = {
+  cta: '', // call to action text for the contact section
+  btn: '', // text inside the button
+  email: '',
+};
+```
+
+### Footer Section
+
+You can remove or add as many you social-media icons you want.\
+Just put an object with the corresponding values inside the networks `array` or remove it from there.
+
+```javascript
+export const footerData = {
+  networks: [
+    {
+      id: nanoid(),
+      name: 'twitter',
+      url: '', // your twitter url
+    },
+    {
+      id: nanoid(),
+      name: 'codepen',
+      url: '', // your codepen url
+    },
+    {
+      id: nanoid(),
+      name: 'linkedin',
+      url: '', // your linkedin url
+    },
+    {
+      id: nanoid(),
+      name: 'github',
+      url: '', // your github url
+    },
+  ],
+};
+```
+
+### Required - Disable GitHub buttons
+
+Set `isEnabled` to `false` once you finish setup your portfolio.\
+By setting to `false` it will hide the GitHub stars/fork buttons
+
+```javascript
+export const githubButtons = {
+  isEnabled: true, // true is the default value
+};
+```
+
+### Step 2 - STYLES
+
+Change the color theme of the website ( choose 2 colors to create a gradient ):
+
+Go to `src/styles/abstracts/_variables.scss` and only change the values on this classes `$main-color` and `$secondary-color` to your prefered HEX color
+
+```scss
+// Default values
+$main-color: #02aab0;
+$secondary-color: #00cdac;
+```
+
+**_Note_**: I highly recommend to checkout gradients variations on [UI Gradient](https://uigradients.com/#BrightVault)
+
+---
+
+## Deployment 📦
+
+Once you have done with your setup. You need to put your website online!
+
+I highly recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST WAY
+
+## Others versions 👥
+
+[Simplefolio](https://github.com/cobidev/simplefolio) by [Jacobo Martinez](https://github.com/cobidev)\
+[Ember.js Simplefolio](https://github.com/sernadesigns/simplefolio-ember) by [Michael Serna](https://github.com/sernadesigns)
+
+## Technologies used 🛠️
+
+- [Gatsby](https://www.gatsbyjs.org/) - Static Site Generator
+- [GraphQL](https://graphql.org/) - Query language for APIs
+- [React](https://es.reactjs.org/) - Front-End JavaScript library
+- [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-End UI library
+- [Sass](https://sass-lang.com/documentation) - CSS extension language
+
+## Authors
+
+- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
+
+## Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2365af6f-820a-4fb8-83e6-69a66f686dfe/deploy-status)](https://app.netlify.com/sites/gatsby-simplefolio/deploys)
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments 🎁
+
+I was motivated to create this project because I wanted to contribute on something useful for the dev community, thanks to [ZTM Community](https://github.com/zero-to-mastery) and [Andrei](https://github.com/aneagoie)
